@@ -1,0 +1,121 @@
+.header-logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .header {
+      width: 100%;
+      height: 100px;
+      background-color: cornflowerblue;
+      border: 2px solid red;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+  }
+  
+  .menu-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .logo {
+    width: 100px;
+    Height: 100px;
+    border: 2px solid red;
+    background-color: #91f2e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  
+  .display {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .content {
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content1 {
+    background-color: #ebeb13;
+  }
+  
+  .content2 {
+    background-color: #0a69c2;
+  }
+  
+  .content3 {
+    background-color: #ebeb13;
+  }
+  
+  .content4 {
+    background-color: #0a69c2;
+  }
+  
+  .content-wrapper {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 200px;
+    border: 2px solid red;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .footer-menu-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  @media (max-width: 976px) {
+        .hide-mobile {
+        display:none ;
+      }
+  
+      .footer-menu-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+    .orange {
+      background-color: orange;
+    }
+    
+    .purple {
+      background-color: purple;
+    }
+  }
+  
+  
+  
+  
+

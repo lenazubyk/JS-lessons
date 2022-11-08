@@ -1,0 +1,54 @@
+.slider-frame {
+    width: 600px;
+    height: 300px;
+    border: 3px solid black;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.img-container {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.g-button {
+    color: black;
+    position: absolute;
+    border-radius: 5px;
+    width: 30px;
+    height: 100%;
+    background-color: #94928b;
+    color: black;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.next {
+    right: 1px;
+}
+
+.prev {
+    left: 1px;
+}
+
+.dots-wrapper {
+    width: 80px;
+    height: 20px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#dot-1,
+#dot-2,
+#dot-3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: #94928b;
+}

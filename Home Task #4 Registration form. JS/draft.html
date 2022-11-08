@@ -1,0 +1,26 @@
+<div>
+    <label>Name</label>
+    <input id="fullName">
+</div>
+
+<div>
+    <label>Age</label>
+    <input id="clientAge">
+</div>
+
+<div>
+    <label>Weight</label>
+    <input id="clientWeight">
+</div>
+
+<div>
+    <label>Height</label>
+    <input id="clientHeight">
+</div>
+
+<button onclick="showResult()">Register</button>
+
+
+if (client.age >= minAge || client.age <= maxAge || client.weight>= minWeight || client.weight <= maxHeight ||
+        client.height <=maxHeight || client.height>= minHeight) {
+        console.log(client.fullName, 'You are a super star!');

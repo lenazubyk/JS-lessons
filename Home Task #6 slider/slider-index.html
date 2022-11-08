@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider-style.css">
+</head>
+
+<body>
+    <div class="slider-frame">
+        <div class="img-container">
+            <button class="g-button prev" onclick="goPrev()">
+                < </button>
+                    <button class="g-button next" onclick="goNext()"> > </button>
+                    <img class="img-block"
+                        src="https://media.istockphoto.com/id/471926619/photo/moraine-lake-at-sunrise-banff-national-park-canada.jpg?s=612x612&w=0&k=20&c=mujiCtVk5QA697SD3d8V8BGmd91-8HlxCNHkolEA0Bo="
+                        id="main-img">
+        </div>
+        <div class="dots-wrapper">
+            <button id="dot-1" class="dot-btn active" onclick="changeImg('Mountains')"></button>
+            <button id="dot-2" onclick="changeImg('Rainbow')"></button>
+            <button id="dot-3" onclick="changeImg('Road')"></button>
+        </div>
+    </div>
+
+    <script src="slider-script.js"></script>
+</body>
+
+</html>
